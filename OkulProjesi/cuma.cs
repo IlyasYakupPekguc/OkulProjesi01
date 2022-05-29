@@ -10,25 +10,20 @@ using System.Windows.Forms;
 
 namespace OkulProjesi
 {
-    public partial class DersSinifProgrami : Form
+    public partial class cuma : Form
     {
-        public DersSinifProgrami()
+        public cuma()
         {
             InitializeComponent();
         }
 
-        private void label18_Click(object sender, EventArgs e)
+        private void label66_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-            new Pazartesi().Show();
+            new DersSinifProgrami().Show();
             this.Hide();
         }
 
-        private void label8_Click(object sender, EventArgs e)
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
         {
 
         }
