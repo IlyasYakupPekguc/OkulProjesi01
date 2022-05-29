@@ -19,7 +19,8 @@ namespace OkulProjesi
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            new DersSinifProgrami().Show();
+            this.Close();
         }
 
         private void Form2_Load(object sender, EventArgs e)

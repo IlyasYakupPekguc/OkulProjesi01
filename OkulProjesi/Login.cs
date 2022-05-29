@@ -51,5 +51,10 @@ namespace OkulProjesi
             new Anasayfa().Show();
             this.Hide();
         }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
