@@ -71,6 +71,7 @@
             this.label2.Size = new System.Drawing.Size(63, 41);
             this.label2.TabIndex = 1;
             this.label2.Text = "Sali";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -104,6 +105,7 @@
             this.label5.Size = new System.Drawing.Size(149, 41);
             this.label5.TabIndex = 4;
             this.label5.Text = "Carsamba";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label6
             // 

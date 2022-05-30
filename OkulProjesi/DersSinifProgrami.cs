@@ -7,11 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using System.Data.SqlClient;
 namespace OkulProjesi
 {
     public partial class DersSinifProgrami : Form
     {
+       
         public DersSinifProgrami()
         {
             InitializeComponent();
@@ -31,6 +32,17 @@ namespace OkulProjesi
         private void label8_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            new Sali().Show();
+            this.Hide();
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
