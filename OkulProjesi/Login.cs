@@ -1,4 +1,4 @@
-namespace OkulProjesi
+﻿namespace OkulProjesi
 {
     public partial class Login : Form
     {
@@ -22,6 +22,7 @@ namespace OkulProjesi
             textUserName.Clear();   
             textPassword.Clear();   
             textUserName.Focus();
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -34,8 +35,24 @@ namespace OkulProjesi
             }
             else
             {
-                MessageBox.Show("Yor username or password is incorrect, try again.");
+                MessageBox.Show("Şifreniz veya kullanıcı adınız hatalı. Lütfen yeniden deneyin.");
                 textUserName.Clear();   
+                textPassword.Clear();
+                textUserName.Focus();
+            }
+        }
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (textUserName.Text == "Admin" && textPassword.Text == "1234")
+            {
+                new Anasayfa().Show();
+                this.Hide();
+
+            }
+            else
+            {
+                MessageBox.Show("Şifreniz veya kullanıcı adınız hatalı. Lütfen yeniden deneyin.");
+                textUserName.Clear();
                 textPassword.Clear();
                 textUserName.Focus();
             }
@@ -48,11 +65,22 @@ namespace OkulProjesi
 
         private void label7_Click(object sender, EventArgs e)
         {
-            new Anasayfa().Show();
-            this.Hide();
+            
+            //new Anasayfa().Show();
+            //this.Hide();
         }
 
         private void Login_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
         {
 
         }

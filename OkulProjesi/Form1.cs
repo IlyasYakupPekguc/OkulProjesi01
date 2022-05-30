@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace OkulProjesi
 {
-    public partial class OgretimGorevlileri : Form
+    public partial class Form1 : Form
     {
-        public OgretimGorevlileri()
+        public Form1()
         {
             InitializeComponent();
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
 
         }
@@ -27,26 +27,16 @@ namespace OkulProjesi
 
         }
 
-        private void OgretimGorevlileri_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label89_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button49_Click(object sender, EventArgs e)
+        private void button5_Click(object sender, EventArgs e)
         {
             new Anasayfa().Show();
-            this.Hide();
+            this.Close();
         }
 
-        private void button55_Click(object sender, EventArgs e)
+        private void button6_Click(object sender, EventArgs e)
         {
             new Login().Show();
-            this.Hide();
+            this.Close();
         }
     }
 }
