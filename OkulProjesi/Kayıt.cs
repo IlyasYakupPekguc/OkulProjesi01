@@ -68,12 +68,12 @@ namespace OkulProjesi
                 }
                 else
                 {
-                    MessageBox.Show("Please enter both password same ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Lütfen aynı şifreyi giriniz. ", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             else
             {
-                MessageBox.Show("Please enter value in all field.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Bütün alanları doldurunuz.", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
             

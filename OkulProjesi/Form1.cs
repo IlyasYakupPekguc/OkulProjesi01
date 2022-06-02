@@ -19,7 +19,8 @@ namespace OkulProjesi
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            new sinifone().Show();
+            this.Close();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -37,6 +38,11 @@ namespace OkulProjesi
         {
             new Login().Show();
             this.Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
