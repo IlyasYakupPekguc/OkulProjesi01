@@ -15,6 +15,9 @@ namespace OkulProjesi
     {
         String sqlStr = "";
         SqlConnection conn = new SqlConnection(@"Data Source=.\SQLEXPRESS;Initial Catalog=proje101;Integrated Security=True");
+        SqlConnection cn = new SqlConnection(@"Data Source=.\SQLEXPRESS;Initial Catalog=proje101;Integrated Security=True");
+        
+
         public Login()
         {
             InitializeComponent();
@@ -27,7 +30,7 @@ namespace OkulProjesi
 
         private void label3_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void label4_Click(object sender, EventArgs e)
@@ -65,19 +68,8 @@ namespace OkulProjesi
         }
         private void button2_Click(object sender, EventArgs e)
         {
-            if (textUserName.Text == "Admin" && textPassword.Text == "1234")
-            {
-                new Anasayfa().Show();
-                this.Hide();
 
-            }
-            else
-            {
-                MessageBox.Show("Şifreniz veya kullanıcı adınız hatalı. Lütfen yeniden deneyin.");
-                textUserName.Clear();
-                textPassword.Clear();
-                textUserName.Focus();
-            }
+
         }
 
         private void label5_Click(object sender, EventArgs e)
@@ -116,6 +108,11 @@ namespace OkulProjesi
         {
             new Kayıt().Show();
             this.Hide();
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
