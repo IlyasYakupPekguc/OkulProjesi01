@@ -44,5 +44,11 @@ namespace OkulProjesi
         {
             
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            new cuma().Show();
+            this.Hide();
+        }
     }
 }
