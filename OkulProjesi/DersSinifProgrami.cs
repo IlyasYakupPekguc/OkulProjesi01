@@ -42,12 +42,19 @@ namespace OkulProjesi
 
         private void label5_Click(object sender, EventArgs e)
         {
-            
+            new carsamba().Show();
+            this.Hide();
         }
         
         private void label3_Click(object sender, EventArgs e)
         {
             new cuma().Show();
+            this.Hide();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            new persembe().Show();
             this.Hide();
         }
     }

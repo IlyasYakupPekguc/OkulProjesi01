@@ -19,8 +19,9 @@ namespace OkulProjesi
 
         private void button1_Click(object sender, EventArgs e)
         {
-            new sinifone().Show();
+            new DersSinifProgrami().Show();
             this.Close();
+            //burada hata olustu ne olduna dair bir fikrim yoktu dersone mı ne yazıyordu.
         }
 
         private void label1_Click(object sender, EventArgs e)
