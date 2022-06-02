@@ -101,22 +101,23 @@ namespace OkulProjesi
 
         private void label79_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Software Engineering, Software Energy Efficiency, Software Sesign and Development, Software Security, Cyber Security, Data Analysis and Mining, Human-Computer Interaction, Mobile Apps, Internet of Thing, Blockchain.");
+            MessageBox.Show("Computer Vision, 3D Model Generation, Point Cloud Registration, Laser Range Measurements, Image Segmentation, Hyperspectral and Multispectral Image Processing, Image Fusion Mobile Robots, Meta-heuristic algorithms, Neural Networks, Artificial Intelligence.");
         }
 
         private void label74_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Network Science and Analysis, Bioinformatics, Graph Based Computing, Machine Learning, Meta-Heuristics, Data Science, Artificial Intelligence.");
+            MessageBox.Show("Distributed and Parallel systems, Cloud Computing, Internet of Things, Real-time Systems.");
         }
 
         private void label76_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Computer Vision, 3D Model Generation, Point Cloud Registration, Laser Range Measurements, Image Segmentation, Hyperspectral and Multispectral Image Processing, Image Fusion Mobile Robots, Meta-heuristic algorithms, Neural Networks, Artificial Intelligence.");
+            MessageBox.Show("Supercomputers (parallel architectures, distributed systems, parallel algorithms and programming), Wireless networks, wireless network security, sensor networks, sensor network security, computer architecture (RISC,CISC based 32 and 64 bit architectures), " +
+                "communication networks (network protocols, network management, network security, VoIP), cryptology, object based programming and databases, operating systems, remote access and management, automation systems, biomedical equipments, lasers, virus, trojans and spam mail management.");
         }
 
         private void label71_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Distributed and Parallel systems, Cloud Computing, Internet of Things, Real-time Systems.");
+            MessageBox.Show("Biometrics, Machine Learning, Deep Learning, Information Security, Cyber Security.");
         }
 
         private void label70_Click(object sender, EventArgs e)
@@ -182,6 +183,16 @@ namespace OkulProjesi
         private void label94_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Machine Learning, Deep Learning, Data Mining, Artificial Intelligence");
+        }
+
+        private void label38_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label37_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
