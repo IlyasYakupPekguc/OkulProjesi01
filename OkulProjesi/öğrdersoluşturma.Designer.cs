@@ -37,6 +37,7 @@
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.label24 = new System.Windows.Forms.Label();
             this.Kaydet6 = new System.Windows.Forms.Button();
             this.comboBox16 = new System.Windows.Forms.ComboBox();
             this.comboBox17 = new System.Windows.Forms.ComboBox();
@@ -69,6 +70,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.label22 = new System.Windows.Forms.Label();
             this.Kaydet1 = new System.Windows.Forms.Button();
             this.comboBox4 = new System.Windows.Forms.ComboBox();
             this.comboBox5 = new System.Windows.Forms.ComboBox();
@@ -78,6 +80,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.label23 = new System.Windows.Forms.Label();
             this.Kaydet2 = new System.Windows.Forms.Button();
             this.comboBox7 = new System.Windows.Forms.ComboBox();
             this.comboBox8 = new System.Windows.Forms.ComboBox();
@@ -85,10 +88,6 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
             this.tabPage7.SuspendLayout();
             this.tabPage6.SuspendLayout();
             this.tabPage5.SuspendLayout();
@@ -194,6 +193,17 @@
             this.tabPage6.TabIndex = 5;
             this.tabPage6.Text = "Lineer Cebir";
             this.tabPage6.UseVisualStyleBackColor = true;
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.BackColor = System.Drawing.Color.Red;
+            this.label24.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label24.Location = new System.Drawing.Point(6, 134);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(365, 20);
+            this.label24.TabIndex = 14;
+            this.label24.Text = "Lütfen 1. , 2. ve 3. şube dışında bir şube seçmeyiniz";
             // 
             // Kaydet6
             // 
@@ -508,6 +518,17 @@
             this.tabPage1.Text = "Bilgisayar Programlama I";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.BackColor = System.Drawing.Color.Red;
+            this.label22.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label22.Location = new System.Drawing.Point(6, 115);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(340, 20);
+            this.label22.TabIndex = 13;
+            this.label22.Text = "Lütfen 1. ve 2. şube dışında bir şube seçmeyiniz";
+            // 
             // Kaydet1
             // 
             this.Kaydet1.Location = new System.Drawing.Point(843, 374);
@@ -602,6 +623,17 @@
             this.tabPage2.Text = "Bilgisayar Mühendisliğine Giriş";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.BackColor = System.Drawing.Color.Red;
+            this.label23.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label23.Location = new System.Drawing.Point(0, 104);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(340, 20);
+            this.label23.TabIndex = 14;
+            this.label23.Text = "Lütfen 1. ve 2. şube dışında bir şube seçmeyiniz";
+            // 
             // Kaydet2
             // 
             this.Kaydet2.Location = new System.Drawing.Point(843, 376);
@@ -663,55 +695,11 @@
             this.label9.TabIndex = 6;
             this.label9.Text = "Şube :";
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(854, 26);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(94, 29);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "button2";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.BackColor = System.Drawing.Color.Red;
-            this.label22.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label22.Location = new System.Drawing.Point(6, 115);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(340, 20);
-            this.label22.TabIndex = 13;
-            this.label22.Text = "Lütfen 1. ve 2. şube dışında bir şube seçmeyiniz";
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.BackColor = System.Drawing.Color.Red;
-            this.label23.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label23.Location = new System.Drawing.Point(0, 104);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(340, 20);
-            this.label23.TabIndex = 14;
-            this.label23.Text = "Lütfen 1. ve 2. şube dışında bir şube seçmeyiniz";
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.BackColor = System.Drawing.Color.Red;
-            this.label24.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label24.Location = new System.Drawing.Point(6, 134);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(365, 20);
-            this.label24.TabIndex = 14;
-            this.label24.Text = "Lütfen 1. , 2. ve 3. şube dışında bir şube seçmeyiniz";
-            // 
             // öğrdersoluşturma
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(960, 555);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.tabControl1);
             this.Name = "öğrdersoluşturma";
             this.Text = "Form3";
@@ -787,7 +775,6 @@
         private Label label7;
         private Label label8;
         private Label label9;
-        private Button button1;
         private Button Kaydet1;
         private Button Kaydet2;
         private Button Kaydet3;
