@@ -17,19 +17,5 @@ namespace OkulProjesi
             InitializeComponent();
         }
 
-        private void BilProgramalama_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void sinifOne_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

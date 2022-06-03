@@ -110,7 +110,6 @@
             this.OgrenciMail.Name = "OgrenciMail";
             this.OgrenciMail.Size = new System.Drawing.Size(173, 27);
             this.OgrenciMail.TabIndex = 7;
-            this.OgrenciMail.TextChanged += new System.EventHandler(this.Email_TextChanged);
             // 
             // AdSoyad
             // 
@@ -118,7 +117,6 @@
             this.AdSoyad.Name = "AdSoyad";
             this.AdSoyad.Size = new System.Drawing.Size(173, 27);
             this.AdSoyad.TabIndex = 8;
-            this.AdSoyad.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // okulNo
             // 
@@ -126,7 +124,7 @@
             this.okulNo.Name = "okulNo";
             this.okulNo.Size = new System.Drawing.Size(173, 27);
             this.okulNo.TabIndex = 9;
-            this.okulNo.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+
             // 
             // SifreTekrarOgren
             // 
@@ -178,7 +176,6 @@
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Kayıt";
             this.Text = "Form3";
-            this.Load += new System.EventHandler(this.Kayıt_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

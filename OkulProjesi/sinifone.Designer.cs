@@ -169,7 +169,6 @@
             this.BilProgramalama.Size = new System.Drawing.Size(299, 33);
             this.BilProgramalama.TabIndex = 15;
             this.BilProgramalama.Text = "Bilgisayar Programalama I Saatleri:";
-            this.BilProgramalama.SelectedIndexChanged += new System.EventHandler(this.BilProgramalama_SelectedIndexChanged);
             // 
             // comboBox1
             // 
@@ -199,7 +198,6 @@
             this.comboBox2.Size = new System.Drawing.Size(299, 33);
             this.comboBox2.TabIndex = 17;
             this.comboBox2.Text = "Fizik I Saatleri:";
-            this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
             // comboBox3
             // 
@@ -288,7 +286,6 @@
             this.MaximizeBox = false;
             this.Name = "sinifOne";
             this.Text = "sinifOne";
-            this.Load += new System.EventHandler(this.sinifOne_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

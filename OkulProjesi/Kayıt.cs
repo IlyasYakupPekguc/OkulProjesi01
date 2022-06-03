@@ -55,9 +55,11 @@ namespace OkulProjesi
                     else
                     {
                         dr.Close();
-                        cmd = new SqlCommand("insert into OgrenciBilgileri (OgrenciMail,Sifre) values(@OgrenciMail,@Sifre)", cn);
+                        cmd = new SqlCommand("insert into OgrenciBilgileri (OgrenciMail,Sifre,AdSoyad,okulNo) values('"+OgrenciMail.Text+"',@Sifre,@w1,@w2)", cn);
                         cmd.Parameters.AddWithValue("@OgrenciMail", OgrenciMail.Text);
                         cmd.Parameters.AddWithValue("@Sifre", Sifre.Text);
+                        cmd.Parameters.AddWithValue("@w1",AdSoyad.Text);
+                        cmd.Parameters.AddWithValue("@w2", okulNo.Text);
                         cmd.ExecuteNonQuery();
                         MessageBox.Show("Your Account is created . Please login now.", "Done", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
@@ -79,24 +81,5 @@ namespace OkulProjesi
             
         }
 
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Email_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Kayıt_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

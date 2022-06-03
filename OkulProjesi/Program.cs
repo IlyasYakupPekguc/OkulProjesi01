@@ -1,4 +1,4 @@
-namespace OkulProjesi
+﻿namespace OkulProjesi
 {
     internal static class Program
     {
