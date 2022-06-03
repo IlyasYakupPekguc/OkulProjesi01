@@ -59,23 +59,175 @@ namespace OkulProjesi
 
         private void button1_Click(object sender, EventArgs e)
         {
+           
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+           
+        }
+        private void button4_Click(object sender, EventArgs e)
+        {
+            
+        }
+        private void button5_Click(object sender, EventArgs e)
+        {
+            
+        }
+        private void button6_Click(object sender, EventArgs e)
+        {
+            
+        }
+        private void button7_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Kaydet1_Click(object sender, EventArgs e)
+        {
             con.Open();
-            string id="";
+            string id = "";
 
             SqlCommand KOMUT = new SqlCommand("select DersID from Dersler where DersAd='Bilgisayar Programlama I'", con);
             SqlDataReader KOMUTr = KOMUT.ExecuteReader();
             while (KOMUTr.Read())
             {
-                id= KOMUTr[0].ToString();
+                id = KOMUTr[0].ToString();
             }
             con.Close();
             con.Open();
-            SqlCommand sqlCommand = new SqlCommand("update Dersler set DersGun=@a1 , DersSaat=@a2 where DersID='"+id+"'",con);
-            sqlCommand.Parameters.AddWithValue("@a1",comboBox5.Text);
-            sqlCommand.Parameters.AddWithValue("@a2",comboBox4.Text);
+            SqlCommand sqlCommand = new SqlCommand("update Dersler set DersGun=@a1 , DersSaat=@a2 where DersID='" + id + "'", con);
+            sqlCommand.Parameters.AddWithValue("@a1", comboBox5.Text);
+            sqlCommand.Parameters.AddWithValue("@a2", comboBox4.Text);
             sqlCommand.ExecuteNonQuery();
             con.Close();
+        }
 
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            //burası kaydet3
+
+            con.Open();
+            string id = "";
+
+            SqlCommand KOMUT = new SqlCommand("select DersID from Dersler where DersAd='Fizik I'", con);
+            SqlDataReader KOMUTr = KOMUT.ExecuteReader();
+            while (KOMUTr.Read())
+            {
+                id = KOMUTr[0].ToString();
+            }
+            con.Close();
+            con.Open();
+            SqlCommand sqlCommand = new SqlCommand("update Dersler set DersGun=@a1 , DersSaat=@a2 where DersID='" + id + "'", con);
+            sqlCommand.Parameters.AddWithValue("@a1", comboBox2.Text);
+            sqlCommand.Parameters.AddWithValue("@a2", comboBox3.Text);
+            sqlCommand.ExecuteNonQuery();
+            con.Close();
+        }
+
+        private void Kaydet2_Click(object sender, EventArgs e)
+        {
+            con.Open();
+            string id = "";
+
+            SqlCommand KOMUT = new SqlCommand("select DersID from Dersler where DersAd='Bilgisayar Mühendisliğine Giriş'", con);
+            SqlDataReader KOMUTr = KOMUT.ExecuteReader();
+            while (KOMUTr.Read())
+            {
+                id = KOMUTr[0].ToString();
+            }
+            con.Close();
+            con.Open();
+            SqlCommand sqlCommand = new SqlCommand("update Dersler set DersGun=@a1 , DersSaat=@a2 where DersID='" + id + "'", con);
+            sqlCommand.Parameters.AddWithValue("@a1", comboBox8.Text);
+            sqlCommand.Parameters.AddWithValue("@a2", comboBox7.Text);
+            sqlCommand.ExecuteNonQuery();
+            con.Close();
+        }
+
+        private void Kaydet4_Click(object sender, EventArgs e)
+        {
+            con.Open();
+            string id = "";
+
+            SqlCommand KOMUT = new SqlCommand("select DersID from Dersler where DersAd='English I'", con);
+            SqlDataReader KOMUTr = KOMUT.ExecuteReader();
+            while (KOMUTr.Read())
+            {
+                id = KOMUTr[0].ToString();
+            }
+            con.Close();
+            con.Open();
+            SqlCommand sqlCommand = new SqlCommand("update Dersler set DersGun=@a1 , DersSaat=@a2 where DersID='" + id + "'", con);
+            sqlCommand.Parameters.AddWithValue("@a1", comboBox11.Text);
+            sqlCommand.Parameters.AddWithValue("@a2", comboBox10.Text);
+            sqlCommand.ExecuteNonQuery();
+            con.Close();
+        }
+
+        private void Kaydet5_Click(object sender, EventArgs e)
+        {
+            con.Open();
+            string id = "";
+
+            SqlCommand KOMUT = new SqlCommand("select DersID from Dersler where DersAd='Mathematics I'", con);
+            SqlDataReader KOMUTr = KOMUT.ExecuteReader();
+            while (KOMUTr.Read())
+            {
+                id = KOMUTr[0].ToString();
+            }
+            con.Close();
+            con.Open();
+            SqlCommand sqlCommand = new SqlCommand("update Dersler set DersGun=@a1 , DersSaat=@a2 where DersID='" + id + "'", con);
+            sqlCommand.Parameters.AddWithValue("@a1", comboBox14.Text);
+            sqlCommand.Parameters.AddWithValue("@a2", comboBox13.Text);
+            sqlCommand.ExecuteNonQuery();
+            con.Close();
+        }
+
+        private void Kaydet6_Click(object sender, EventArgs e)
+        {
+            con.Open();
+            string id = "";
+
+            SqlCommand KOMUT = new SqlCommand("select DersID from Dersler where DersAd='Lineer Cebir'", con);
+            SqlDataReader KOMUTr = KOMUT.ExecuteReader();
+            while (KOMUTr.Read())
+            {
+                id = KOMUTr[0].ToString();
+            }
+            con.Close();
+            con.Open();
+            SqlCommand sqlCommand = new SqlCommand("update Dersler set DersGun=@a1 , DersSaat=@a2 where DersID='" + id + "'", con);
+            sqlCommand.Parameters.AddWithValue("@a1", comboBox17.Text);
+            sqlCommand.Parameters.AddWithValue("@a2", comboBox16.Text);
+            sqlCommand.ExecuteNonQuery();
+            con.Close();
+        }
+
+        private void Kaydet7_Click(object sender, EventArgs e)
+        {
+            con.Open();
+            string id = "";
+
+            SqlCommand KOMUT = new SqlCommand("select DersID from Dersler where DersAd='Atatürk İlkeleri ve İnkilap Tarihi I'", con);
+            SqlDataReader KOMUTr = KOMUT.ExecuteReader();
+            while (KOMUTr.Read())
+            {
+                id = KOMUTr[0].ToString();
+            }
+            con.Close();
+            con.Open();
+            SqlCommand sqlCommand = new SqlCommand("update Dersler set DersGun=@a1 , DersSaat=@a2 where DersID='" + id + "'", con);
+            sqlCommand.Parameters.AddWithValue("@a1", comboBox20.Text);
+            sqlCommand.Parameters.AddWithValue("@a2", comboBox19.Text);
+            sqlCommand.ExecuteNonQuery();
+            con.Close();
         }
     }
 }

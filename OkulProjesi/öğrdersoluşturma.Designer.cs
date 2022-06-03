@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.Kaydet7 = new System.Windows.Forms.Button();
             this.comboBox19 = new System.Windows.Forms.ComboBox();
             this.comboBox20 = new System.Windows.Forms.ComboBox();
             this.comboBox21 = new System.Windows.Forms.ComboBox();
@@ -36,6 +37,7 @@
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.Kaydet6 = new System.Windows.Forms.Button();
             this.comboBox16 = new System.Windows.Forms.ComboBox();
             this.comboBox17 = new System.Windows.Forms.ComboBox();
             this.comboBox18 = new System.Windows.Forms.ComboBox();
@@ -43,6 +45,7 @@
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.Kaydet5 = new System.Windows.Forms.Button();
             this.comboBox13 = new System.Windows.Forms.ComboBox();
             this.comboBox14 = new System.Windows.Forms.ComboBox();
             this.comboBox15 = new System.Windows.Forms.ComboBox();
@@ -50,6 +53,7 @@
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.Kaydet4 = new System.Windows.Forms.Button();
             this.comboBox10 = new System.Windows.Forms.ComboBox();
             this.comboBox11 = new System.Windows.Forms.ComboBox();
             this.comboBox12 = new System.Windows.Forms.ComboBox();
@@ -57,6 +61,7 @@
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.Kaydet3 = new System.Windows.Forms.Button();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
@@ -64,6 +69,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.Kaydet1 = new System.Windows.Forms.Button();
             this.comboBox4 = new System.Windows.Forms.ComboBox();
             this.comboBox5 = new System.Windows.Forms.ComboBox();
             this.comboBox6 = new System.Windows.Forms.ComboBox();
@@ -72,6 +78,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.Kaydet2 = new System.Windows.Forms.Button();
             this.comboBox7 = new System.Windows.Forms.ComboBox();
             this.comboBox8 = new System.Windows.Forms.ComboBox();
             this.comboBox9 = new System.Windows.Forms.ComboBox();
@@ -79,6 +86,9 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
             this.tabPage7.SuspendLayout();
             this.tabPage6.SuspendLayout();
             this.tabPage5.SuspendLayout();
@@ -91,6 +101,7 @@
             // 
             // tabPage7
             // 
+            this.tabPage7.Controls.Add(this.Kaydet7);
             this.tabPage7.Controls.Add(this.comboBox19);
             this.tabPage7.Controls.Add(this.comboBox20);
             this.tabPage7.Controls.Add(this.comboBox21);
@@ -104,6 +115,16 @@
             this.tabPage7.TabIndex = 6;
             this.tabPage7.Text = "Atatürk İlkeleri ve İnkilap Tarihi I";
             this.tabPage7.UseVisualStyleBackColor = true;
+            // 
+            // Kaydet7
+            // 
+            this.Kaydet7.Location = new System.Drawing.Point(843, 382);
+            this.Kaydet7.Name = "Kaydet7";
+            this.Kaydet7.Size = new System.Drawing.Size(94, 29);
+            this.Kaydet7.TabIndex = 12;
+            this.Kaydet7.Text = "Kaydet7";
+            this.Kaydet7.UseVisualStyleBackColor = true;
+            this.Kaydet7.Click += new System.EventHandler(this.Kaydet7_Click);
             // 
             // comboBox19
             // 
@@ -158,6 +179,8 @@
             // 
             // tabPage6
             // 
+            this.tabPage6.Controls.Add(this.label24);
+            this.tabPage6.Controls.Add(this.Kaydet6);
             this.tabPage6.Controls.Add(this.comboBox16);
             this.tabPage6.Controls.Add(this.comboBox17);
             this.tabPage6.Controls.Add(this.comboBox18);
@@ -171,6 +194,16 @@
             this.tabPage6.TabIndex = 5;
             this.tabPage6.Text = "Lineer Cebir";
             this.tabPage6.UseVisualStyleBackColor = true;
+            // 
+            // Kaydet6
+            // 
+            this.Kaydet6.Location = new System.Drawing.Point(843, 371);
+            this.Kaydet6.Name = "Kaydet6";
+            this.Kaydet6.Size = new System.Drawing.Size(94, 29);
+            this.Kaydet6.TabIndex = 12;
+            this.Kaydet6.Text = "Kaydet6";
+            this.Kaydet6.UseVisualStyleBackColor = true;
+            this.Kaydet6.Click += new System.EventHandler(this.Kaydet6_Click);
             // 
             // comboBox16
             // 
@@ -225,6 +258,7 @@
             // 
             // tabPage5
             // 
+            this.tabPage5.Controls.Add(this.Kaydet5);
             this.tabPage5.Controls.Add(this.comboBox13);
             this.tabPage5.Controls.Add(this.comboBox14);
             this.tabPage5.Controls.Add(this.comboBox15);
@@ -238,6 +272,16 @@
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "Mathematics I";
             this.tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // Kaydet5
+            // 
+            this.Kaydet5.Location = new System.Drawing.Point(843, 374);
+            this.Kaydet5.Name = "Kaydet5";
+            this.Kaydet5.Size = new System.Drawing.Size(94, 29);
+            this.Kaydet5.TabIndex = 12;
+            this.Kaydet5.Text = "Kaydet5";
+            this.Kaydet5.UseVisualStyleBackColor = true;
+            this.Kaydet5.Click += new System.EventHandler(this.Kaydet5_Click);
             // 
             // comboBox13
             // 
@@ -292,6 +336,7 @@
             // 
             // tabPage4
             // 
+            this.tabPage4.Controls.Add(this.Kaydet4);
             this.tabPage4.Controls.Add(this.comboBox10);
             this.tabPage4.Controls.Add(this.comboBox11);
             this.tabPage4.Controls.Add(this.comboBox12);
@@ -305,6 +350,16 @@
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "English I";
             this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // Kaydet4
+            // 
+            this.Kaydet4.Location = new System.Drawing.Point(843, 378);
+            this.Kaydet4.Name = "Kaydet4";
+            this.Kaydet4.Size = new System.Drawing.Size(94, 29);
+            this.Kaydet4.TabIndex = 12;
+            this.Kaydet4.Text = "Kaydet4";
+            this.Kaydet4.UseVisualStyleBackColor = true;
+            this.Kaydet4.Click += new System.EventHandler(this.Kaydet4_Click);
             // 
             // comboBox10
             // 
@@ -359,6 +414,7 @@
             // 
             // tabPage3
             // 
+            this.tabPage3.Controls.Add(this.Kaydet3);
             this.tabPage3.Controls.Add(this.comboBox3);
             this.tabPage3.Controls.Add(this.comboBox2);
             this.tabPage3.Controls.Add(this.comboBox1);
@@ -372,6 +428,16 @@
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Fizik I";
             this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // Kaydet3
+            // 
+            this.Kaydet3.Location = new System.Drawing.Point(843, 370);
+            this.Kaydet3.Name = "Kaydet3";
+            this.Kaydet3.Size = new System.Drawing.Size(94, 29);
+            this.Kaydet3.TabIndex = 6;
+            this.Kaydet3.Text = "Kaydet3";
+            this.Kaydet3.UseVisualStyleBackColor = true;
+            this.Kaydet3.Click += new System.EventHandler(this.button2_Click_1);
             // 
             // comboBox3
             // 
@@ -426,6 +492,8 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.label22);
+            this.tabPage1.Controls.Add(this.Kaydet1);
             this.tabPage1.Controls.Add(this.comboBox4);
             this.tabPage1.Controls.Add(this.comboBox5);
             this.tabPage1.Controls.Add(this.comboBox6);
@@ -439,6 +507,16 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Bilgisayar Programlama I";
             this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // Kaydet1
+            // 
+            this.Kaydet1.Location = new System.Drawing.Point(843, 374);
+            this.Kaydet1.Name = "Kaydet1";
+            this.Kaydet1.Size = new System.Drawing.Size(94, 29);
+            this.Kaydet1.TabIndex = 12;
+            this.Kaydet1.Text = "Kaydet1";
+            this.Kaydet1.UseVisualStyleBackColor = true;
+            this.Kaydet1.Click += new System.EventHandler(this.Kaydet1_Click);
             // 
             // comboBox4
             // 
@@ -508,6 +586,8 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.label23);
+            this.tabPage2.Controls.Add(this.Kaydet2);
             this.tabPage2.Controls.Add(this.comboBox7);
             this.tabPage2.Controls.Add(this.comboBox8);
             this.tabPage2.Controls.Add(this.comboBox9);
@@ -521,6 +601,16 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Bilgisayar Mühendisliğine Giriş";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // Kaydet2
+            // 
+            this.Kaydet2.Location = new System.Drawing.Point(843, 376);
+            this.Kaydet2.Name = "Kaydet2";
+            this.Kaydet2.Size = new System.Drawing.Size(94, 29);
+            this.Kaydet2.TabIndex = 13;
+            this.Kaydet2.Text = "Kaydet2";
+            this.Kaydet2.UseVisualStyleBackColor = true;
+            this.Kaydet2.Click += new System.EventHandler(this.Kaydet2_Click);
             // 
             // comboBox7
             // 
@@ -579,9 +669,42 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(94, 29);
             this.button1.TabIndex = 1;
-            this.button1.Text = "button1";
+            this.button1.Text = "button2";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.BackColor = System.Drawing.Color.Red;
+            this.label22.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label22.Location = new System.Drawing.Point(6, 115);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(340, 20);
+            this.label22.TabIndex = 13;
+            this.label22.Text = "Lütfen 1. ve 2. şube dışında bir şube seçmeyiniz";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.BackColor = System.Drawing.Color.Red;
+            this.label23.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label23.Location = new System.Drawing.Point(0, 104);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(340, 20);
+            this.label23.TabIndex = 14;
+            this.label23.Text = "Lütfen 1. ve 2. şube dışında bir şube seçmeyiniz";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.BackColor = System.Drawing.Color.Red;
+            this.label24.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label24.Location = new System.Drawing.Point(6, 134);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(365, 20);
+            this.label24.TabIndex = 14;
+            this.label24.Text = "Lütfen 1. , 2. ve 3. şube dışında bir şube seçmeyiniz";
             // 
             // öğrdersoluşturma
             // 
@@ -665,5 +788,15 @@
         private Label label8;
         private Label label9;
         private Button button1;
+        private Button Kaydet1;
+        private Button Kaydet2;
+        private Button Kaydet3;
+        private Button Kaydet4;
+        private Button Kaydet5;
+        private Button Kaydet7;
+        private Button Kaydet6;
+        private Label label24;
+        private Label label22;
+        private Label label23;
     }
 }
