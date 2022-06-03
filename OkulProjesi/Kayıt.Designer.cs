@@ -34,11 +34,11 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.Email = new System.Windows.Forms.TextBox();
+            this.OgrenciMail = new System.Windows.Forms.TextBox();
             this.AdSoyad = new System.Windows.Forms.TextBox();
-            this.OgrNum = new System.Windows.Forms.TextBox();
+            this.okulNo = new System.Windows.Forms.TextBox();
             this.SifreTekrarOgren = new System.Windows.Forms.TextBox();
-            this.SifreOgren = new System.Windows.Forms.TextBox();
+            this.Sifre = new System.Windows.Forms.TextBox();
             this.button3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -104,13 +104,13 @@
             this.label1.TabIndex = 6;
             this.label1.Text = "Şifre Tekrar\r\n";
             // 
-            // Email
+            // OgrenciMail
             // 
-            this.Email.Location = new System.Drawing.Point(330, 223);
-            this.Email.Name = "Email";
-            this.Email.Size = new System.Drawing.Size(173, 27);
-            this.Email.TabIndex = 7;
-            this.Email.TextChanged += new System.EventHandler(this.Email_TextChanged);
+            this.OgrenciMail.Location = new System.Drawing.Point(330, 223);
+            this.OgrenciMail.Name = "OgrenciMail";
+            this.OgrenciMail.Size = new System.Drawing.Size(173, 27);
+            this.OgrenciMail.TabIndex = 7;
+            this.OgrenciMail.TextChanged += new System.EventHandler(this.Email_TextChanged);
             // 
             // AdSoyad
             // 
@@ -120,13 +120,13 @@
             this.AdSoyad.TabIndex = 8;
             this.AdSoyad.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // OgrNum
+            // okulNo
             // 
-            this.OgrNum.Location = new System.Drawing.Point(330, 148);
-            this.OgrNum.Name = "OgrNum";
-            this.OgrNum.Size = new System.Drawing.Size(173, 27);
-            this.OgrNum.TabIndex = 9;
-            this.OgrNum.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.okulNo.Location = new System.Drawing.Point(330, 148);
+            this.okulNo.Name = "okulNo";
+            this.okulNo.Size = new System.Drawing.Size(173, 27);
+            this.okulNo.TabIndex = 9;
+            this.okulNo.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // SifreTekrarOgren
             // 
@@ -136,13 +136,13 @@
             this.SifreTekrarOgren.TabIndex = 10;
             this.SifreTekrarOgren.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
-            // SifreOgren
+            // Sifre
             // 
-            this.SifreOgren.Location = new System.Drawing.Point(330, 260);
-            this.SifreOgren.Name = "SifreOgren";
-            this.SifreOgren.Size = new System.Drawing.Size(173, 27);
-            this.SifreOgren.TabIndex = 11;
-            this.SifreOgren.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
+            this.Sifre.Location = new System.Drawing.Point(330, 260);
+            this.Sifre.Name = "Sifre";
+            this.Sifre.Size = new System.Drawing.Size(173, 27);
+            this.Sifre.TabIndex = 11;
+            this.Sifre.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
             // button3
             // 
@@ -164,11 +164,11 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(914, 600);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.SifreOgren);
+            this.Controls.Add(this.Sifre);
             this.Controls.Add(this.SifreTekrarOgren);
-            this.Controls.Add(this.OgrNum);
+            this.Controls.Add(this.okulNo);
             this.Controls.Add(this.AdSoyad);
-            this.Controls.Add(this.Email);
+            this.Controls.Add(this.OgrenciMail);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -190,11 +190,11 @@
         private Label label4;
         private Label label5;
         private Label label1;
-        private TextBox Email;
+        private TextBox OgrenciMail;
         private TextBox AdSoyad;
-        private TextBox OgrNum;
+        private TextBox okulNo;
         private TextBox SifreTekrarOgren;
-        private TextBox SifreOgren;
+        private TextBox Sifre;
         private Button button3;
     }
 }

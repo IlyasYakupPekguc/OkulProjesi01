@@ -39,8 +39,8 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.OgrenciSifre = new System.Windows.Forms.TextBox();
+            this.OgrenciAd = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.textPassword = new System.Windows.Forms.TextBox();
             this.button3 = new System.Windows.Forms.Button();
@@ -169,21 +169,21 @@
             this.label8.TabIndex = 11;
             this.label8.Text = "Şifre";
             // 
-            // textBox1
+            // OgrenciSifre
             // 
-            this.textBox1.Location = new System.Drawing.Point(607, 288);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.PasswordChar = '*';
-            this.textBox1.Size = new System.Drawing.Size(173, 27);
-            this.textBox1.TabIndex = 12;
+            this.OgrenciSifre.Location = new System.Drawing.Point(607, 288);
+            this.OgrenciSifre.Name = "OgrenciSifre";
+            this.OgrenciSifre.PasswordChar = '*';
+            this.OgrenciSifre.Size = new System.Drawing.Size(173, 27);
+            this.OgrenciSifre.TabIndex = 12;
             // 
-            // textBox2
+            // OgrenciAd
             // 
-            this.textBox2.Location = new System.Drawing.Point(607, 252);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(173, 27);
-            this.textBox2.TabIndex = 13;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.OgrenciAd.Location = new System.Drawing.Point(607, 252);
+            this.OgrenciAd.Name = "OgrenciAd";
+            this.OgrenciAd.Size = new System.Drawing.Size(173, 27);
+            this.OgrenciAd.TabIndex = 13;
+            this.OgrenciAd.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // button2
             // 
@@ -226,8 +226,8 @@
             this.ClientSize = new System.Drawing.Size(882, 672);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.OgrenciAd);
+            this.Controls.Add(this.OgrenciSifre);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label7);
@@ -262,8 +262,8 @@
         private Label label7;
         private Label label1;
         private Label label8;
-        private TextBox textBox1;
-        private TextBox textBox2;
+        private TextBox OgrenciSifre;
+        private TextBox OgrenciAd;
         private Button button2;
         private TextBox textPassword;
         private Button button3;

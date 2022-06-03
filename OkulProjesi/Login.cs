@@ -36,9 +36,10 @@ namespace OkulProjesi
         private void label4_Click(object sender, EventArgs e)
         {
             textUserName.Clear();   
-            textPassword.Clear();   
+            textPassword.Clear();
             textUserName.Focus();
-            
+            OgrenciSifre.Clear();
+            OgrenciAd.Clear();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -62,13 +63,33 @@ namespace OkulProjesi
                 textPassword.Clear();
                 textUserName.Focus();
             }
-
+            
             conn.Close();
 
         }
         private void button2_Click(object sender, EventArgs e)
         {
+            sqlStr = "Select * from OgrenciBilgileri where OgrenciMail='" + OgrenciAd.Text + "' and Sifre='" + OgrenciSifre.Text + "'";
 
+            conn.Open();
+            SqlCommand cmd1 = new SqlCommand(sqlStr, conn);
+            SqlDataReader dr1 = cmd1.ExecuteReader();
+
+            if (dr1.Read())
+            {
+                new Anasayfa().Show();
+                this.Hide();
+
+            }
+            else
+            {
+                MessageBox.Show("Şifreniz veya kullanıcı adınız hatalı. Lütfen yeniden deneyin.");
+                OgrenciAd.Clear();
+                OgrenciSifre.Clear();
+                textUserName.Focus();
+            }
+
+            conn.Close();
 
         }
 
@@ -86,7 +107,7 @@ namespace OkulProjesi
 
         private void Login_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void label6_Click(object sender, EventArgs e)

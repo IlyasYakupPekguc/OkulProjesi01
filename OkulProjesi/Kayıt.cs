@@ -41,11 +41,11 @@ namespace OkulProjesi
         private void button3_Click(object sender, EventArgs e)
         {
             cn.Open();
-            if (SifreTekrarOgren.Text != string.Empty || SifreOgren.Text != string.Empty || Email.Text != string.Empty)
+            if (SifreTekrarOgren.Text != string.Empty || Sifre.Text != string.Empty || OgrenciMail.Text != string.Empty)
             {
-                if (SifreOgren.Text == SifreTekrarOgren.Text)
+                if (Sifre.Text == SifreTekrarOgren.Text)
                 {
-                    SqlCommand cmd = new SqlCommand("select * from OgrenciBilgileri where Email='" + Email.Text + "'", cn);
+                    SqlCommand cmd = new SqlCommand("select * from OgrenciBilgileri where OgrenciMail='" + OgrenciMail.Text + "'", cn);
                     SqlDataReader dr = cmd.ExecuteReader();
                     if (dr.Read())
                     {
@@ -55,13 +55,13 @@ namespace OkulProjesi
                     else
                     {
                         dr.Close();
-                        cmd = new SqlCommand("insert into OgrenciBilgileri values(@Email,@SifreOgren)", cn);
-                        cmd.Parameters.AddWithValue("username", Email.Text);
-                        cmd.Parameters.AddWithValue("password", SifreOgren.Text);
+                        cmd = new SqlCommand("insert into OgrenciBilgileri (OgrenciMail,Sifre) values(@OgrenciMail,@Sifre)", cn);
+                        cmd.Parameters.AddWithValue("@OgrenciMail", OgrenciMail.Text);
+                        cmd.Parameters.AddWithValue("@Sifre", Sifre.Text);
                         cmd.ExecuteNonQuery();
                         MessageBox.Show("Your Account is created . Please login now.", "Done", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                        new Anasayfa().Show();
+                        new Login().Show();
                         this.Hide();
                         cn.Close();
                     }

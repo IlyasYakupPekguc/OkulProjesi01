@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace OkulProjesi
 {
-    public partial class carsamba : Form
+    public partial class ikinciSinif : Form
     {
-        public carsamba()
+        public ikinciSinif()
         {
             InitializeComponent();
-        }
-
-        private void label66_Click(object sender, EventArgs e)
-        {
-            new DersSinifProgrami().Show();
-            this.Hide();
         }
     }
 }

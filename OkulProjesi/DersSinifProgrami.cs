@@ -57,5 +57,16 @@ namespace OkulProjesi
             new persembe().Show();
             this.Hide();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            new Anasayfa().Show();
+            this.Hide();
+        }
+
+        private void DersSinifProgrami_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
