@@ -710,7 +710,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(962, 553);
+            this.ClientSize = new System.Drawing.Size(979, 553);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.tabControl1);
             this.MaximizeBox = false;

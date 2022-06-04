@@ -21,5 +21,20 @@ namespace OkulProjesi
         {
 
         }
+
+        private void label12_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void _101DersProg_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

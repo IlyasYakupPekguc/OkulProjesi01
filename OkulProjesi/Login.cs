@@ -77,7 +77,9 @@ namespace OkulProjesi
 
             if (dr1.Read())
             {
-                new Anasayfa().Show();
+                Anasayfa ans = new Anasayfa(); 
+                ans.Show();
+                veriaktarimi.email = OgrenciAd.Text;
                 this.Hide();
 
             }

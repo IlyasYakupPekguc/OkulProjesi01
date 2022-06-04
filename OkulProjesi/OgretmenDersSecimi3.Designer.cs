@@ -151,6 +151,7 @@
             this.Kaydet1.TabIndex = 12;
             this.Kaydet1.Text = "Kaydet1";
             this.Kaydet1.UseVisualStyleBackColor = true;
+            this.Kaydet1.Click += new System.EventHandler(this.Kaydet1_Click_1);
             // 
             // comboBox4
             // 
@@ -216,7 +217,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 29);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1118, 485);
+            this.tabPage2.Size = new System.Drawing.Size(1071, 452);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "File Organization";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -240,6 +241,7 @@
             this.Kaydet2.TabIndex = 13;
             this.Kaydet2.Text = "Kaydet2";
             this.Kaydet2.UseVisualStyleBackColor = true;
+            this.Kaydet2.Click += new System.EventHandler(this.Kaydet2_Click_1);
             // 
             // comboBox7
             // 
@@ -304,7 +306,7 @@
             this.tabPage3.Location = new System.Drawing.Point(4, 29);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(1118, 485);
+            this.tabPage3.Size = new System.Drawing.Size(1071, 452);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "İşletim Sistemleri";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -317,6 +319,7 @@
             this.Kaydet3.TabIndex = 6;
             this.Kaydet3.Text = "Kaydet3";
             this.Kaydet3.UseVisualStyleBackColor = true;
+            this.Kaydet3.Click += new System.EventHandler(this.Kaydet3_Click);
             // 
             // comboBox3
             // 
@@ -381,7 +384,7 @@
             this.tabPage4.Location = new System.Drawing.Point(4, 29);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(1118, 485);
+            this.tabPage4.Size = new System.Drawing.Size(1071, 452);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Bilgisayar Mimarisi";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -394,6 +397,7 @@
             this.Kaydet4.TabIndex = 12;
             this.Kaydet4.Text = "Kaydet4";
             this.Kaydet4.UseVisualStyleBackColor = true;
+            this.Kaydet4.Click += new System.EventHandler(this.Kaydet4_Click_1);
             // 
             // comboBox10
             // 
@@ -458,7 +462,7 @@
             this.tabPage5.Location = new System.Drawing.Point(4, 29);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(1118, 485);
+            this.tabPage5.Size = new System.Drawing.Size(1071, 452);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "Introduction to Data Science";
             this.tabPage5.UseVisualStyleBackColor = true;
@@ -471,6 +475,7 @@
             this.Kaydet5.TabIndex = 12;
             this.Kaydet5.Text = "Kaydet5";
             this.Kaydet5.UseVisualStyleBackColor = true;
+            this.Kaydet5.Click += new System.EventHandler(this.Kaydet5_Click_1);
             // 
             // comboBox13
             // 
@@ -536,7 +541,7 @@
             this.tabPage6.Location = new System.Drawing.Point(4, 29);
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(1118, 485);
+            this.tabPage6.Size = new System.Drawing.Size(1071, 452);
             this.tabPage6.TabIndex = 5;
             this.tabPage6.Text = "Mühendislik Projesi";
             this.tabPage6.UseVisualStyleBackColor = true;
@@ -560,6 +565,7 @@
             this.Kaydet6.TabIndex = 12;
             this.Kaydet6.Text = "Kaydet6";
             this.Kaydet6.UseVisualStyleBackColor = true;
+            this.Kaydet6.Click += new System.EventHandler(this.Kaydet6_Click_1);
             // 
             // comboBox16
             // 
@@ -624,7 +630,7 @@
             this.tabPage7.Location = new System.Drawing.Point(4, 29);
             this.tabPage7.Name = "tabPage7";
             this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage7.Size = new System.Drawing.Size(1118, 485);
+            this.tabPage7.Size = new System.Drawing.Size(1071, 452);
             this.tabPage7.TabIndex = 6;
             this.tabPage7.Text = "Technical Elective Course";
             this.tabPage7.UseVisualStyleBackColor = true;
@@ -637,6 +643,7 @@
             this.Kaydet7.TabIndex = 12;
             this.Kaydet7.Text = "Kaydet7";
             this.Kaydet7.UseVisualStyleBackColor = true;
+            this.Kaydet7.Click += new System.EventHandler(this.Kaydet7_Click_1);
             // 
             // comboBox19
             // 

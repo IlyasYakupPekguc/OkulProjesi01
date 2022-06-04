@@ -51,103 +51,73 @@
             // 
             this.comboBox6.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Items.AddRange(new object[] {
-            "Salı: 8.30-11.20",
-            "Pazartesi: 11.30-14.20",
-            "Pazartesi: 14.30-17.20"});
             this.comboBox6.Location = new System.Drawing.Point(641, 379);
             this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(299, 33);
+            this.comboBox6.Size = new System.Drawing.Size(187, 33);
             this.comboBox6.TabIndex = 36;
-            this.comboBox6.Text = "Türk Dili I Saatleri:";
+            this.comboBox6.Text = "Şubeler:";
             // 
             // comboBox5
             // 
             this.comboBox5.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Items.AddRange(new object[] {
-            "Şube 1: Cuma 17.30 - 19.20,  Çarşamba 17.30 - 19.20",
-            "Şube 2: Pazartesi 17.30 - 19.20,  Salı 17.30 - 19.20",
-            "Şube 3 :Perşembe 19.30 - 21.20,  Çarşamba 19.30 - 21.20",
-            "Şube 4: Pazartesi 19.30 - 21.20,  Salı 19.30 - 21.20",
-            "Şube 5: Çarsamba 17.30 - 19.20,  Cuma 19.30 - 21.20"});
             this.comboBox5.Location = new System.Drawing.Point(641, 425);
             this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(299, 33);
+            this.comboBox5.Size = new System.Drawing.Size(187, 33);
             this.comboBox5.TabIndex = 35;
-            this.comboBox5.Text = "Academic English I Saatleri:";
+            this.comboBox5.Text = "Şubeler:";
             // 
             // comboBox4
             // 
             this.comboBox4.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Items.AddRange(new object[] {
-            "Biilgisayar Programlama",
-            "saat 1",
-            "saat2"});
             this.comboBox4.Location = new System.Drawing.Point(641, 332);
             this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(299, 33);
+            this.comboBox4.Size = new System.Drawing.Size(187, 33);
             this.comboBox4.TabIndex = 34;
-            this.comboBox4.Text = "Differantial Equations Saatleri:";
+            this.comboBox4.Text = "Şubeler:";
             // 
             // comboBox3
             // 
             this.comboBox3.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
-            "Şube 1: Cuma 17.30 - 19.20,  Çarşamba 17.30 - 19.20",
-            "Şube 2: Pazartesi 17.30 - 19.20,  Salı 17.30 - 19.20",
-            "Şube 3 :Perşembe 19.30 - 21.20,  Çarşamba 19.30 - 21.20",
-            "Şube 4: Pazartesi 19.30 - 21.20,  Salı 19.30 - 21.20",
-            "Şube 5: Çarsamba 17.30 - 19.20,  Cuma 19.30 - 21.20"});
             this.comboBox3.Location = new System.Drawing.Point(641, 285);
             this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(334, 33);
+            this.comboBox3.Size = new System.Drawing.Size(187, 33);
             this.comboBox3.TabIndex = 33;
-            this.comboBox3.Text = "Object Oriented Programming Saatleri:";
+            this.comboBox3.Text = "Şubeler:";
             // 
             // comboBox2
             // 
             this.comboBox2.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
-            "Şube 1: Cuma 17.30 - 19.20,  Çarşamba 17.30 - 19.20",
-            "Şube 2: Pazartesi 17.30 - 19.20,  Salı 17.30 - 19.20",
-            "Şube 3 :Perşembe 19.30 - 21.20,  Çarşamba 19.30 - 21.20",
-            "Şube 4: Pazartesi 19.30 - 21.20,  Salı 19.30 - 21.20",
-            "Şube 5: Çarsamba 17.30 - 19.20,  Cuma 19.30 - 21.20"});
             this.comboBox2.Location = new System.Drawing.Point(641, 238);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(334, 33);
+            this.comboBox2.Size = new System.Drawing.Size(187, 33);
             this.comboBox2.TabIndex = 32;
-            this.comboBox2.Text = "Elektrik ve Elektronik Devreleri Saatleri:";
+            this.comboBox2.Text = "Şubeler:";
+            this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged_1);
             // 
             // comboBox1
             // 
             this.comboBox1.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Pazartesi: 9.30-10.20",
-            "Pazartesi: 10.30-11.20"});
             this.comboBox1.Location = new System.Drawing.Point(641, 188);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(299, 33);
+            this.comboBox1.Size = new System.Drawing.Size(187, 33);
             this.comboBox1.TabIndex = 31;
-            this.comboBox1.Text = "Olasılık ve İstatistik Saatleri:";
+            this.comboBox1.Text = "Şubeler:";
             // 
             // BilProgramalama
             // 
             this.BilProgramalama.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.BilProgramalama.FormattingEnabled = true;
-            this.BilProgramalama.Items.AddRange(new object[] {
-            "Pazartesi: 8.30-10.20",
-            "Pazartesi: 10.30-12.20"});
             this.BilProgramalama.Location = new System.Drawing.Point(641, 144);
             this.BilProgramalama.Name = "BilProgramalama";
-            this.BilProgramalama.Size = new System.Drawing.Size(299, 33);
+            this.BilProgramalama.Size = new System.Drawing.Size(187, 33);
             this.BilProgramalama.TabIndex = 30;
-            this.BilProgramalama.Text = "Data Structures Saatleri:";
+            this.BilProgramalama.Text = "Şubeler:";
+            this.BilProgramalama.SelectedIndexChanged += new System.EventHandler(this.BilProgramalama_SelectedIndexChanged);
             // 
             // checkBox14
             // 
@@ -294,6 +264,7 @@
             this.Controls.Add(this.checkBox9);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.checkBox1);
+            this.MaximizeBox = false;
             this.Name = "ikinciSinif";
             this.Text = "ikinciSinif";
             this.ResumeLayout(false);

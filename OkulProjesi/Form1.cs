@@ -19,7 +19,9 @@ namespace OkulProjesi
 
         private void button1_Click(object sender, EventArgs e)
         {
-            new sinifOne().Show();
+            sinifOne sinif1= new sinifOne();
+            sinif1.email = veriaktarimi.email;
+            sinif1.Show();
             this.Close();
             //burada hata olustu ne olduna dair bir fikrim yoktu dersone mı ne yazıyordu.
         }

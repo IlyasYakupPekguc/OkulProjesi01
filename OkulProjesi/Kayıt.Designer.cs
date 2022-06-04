@@ -40,6 +40,7 @@
             this.SifreTekrarOgren = new System.Windows.Forms.TextBox();
             this.Sifre = new System.Windows.Forms.TextBox();
             this.button3 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label2
@@ -124,7 +125,6 @@
             this.okulNo.Name = "okulNo";
             this.okulNo.Size = new System.Drawing.Size(173, 27);
             this.okulNo.TabIndex = 9;
-
             // 
             // SifreTekrarOgren
             // 
@@ -154,13 +154,24 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(674, 547);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(94, 29);
+            this.button1.TabIndex = 17;
+            this.button1.Text = "Geri Dön";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
             // Kayıt
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(914, 600);
+            this.ClientSize = new System.Drawing.Size(809, 632);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.Sifre);
             this.Controls.Add(this.SifreTekrarOgren);
@@ -174,8 +185,10 @@
             this.Controls.Add(this.label2);
             this.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.MaximizeBox = false;
             this.Name = "Kayıt";
             this.Text = "Form3";
+            this.Load += new System.EventHandler(this.Kayıt_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -193,5 +206,6 @@
         private TextBox SifreTekrarOgren;
         private TextBox Sifre;
         private Button button3;
+        private Button button1;
     }
 }
