@@ -89,6 +89,7 @@
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.label25 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -296,6 +297,7 @@
             // 
             // tabPage3
             // 
+            this.tabPage3.Controls.Add(this.label25);
             this.tabPage3.Controls.Add(this.Kaydet3);
             this.tabPage3.Controls.Add(this.comboBox3);
             this.tabPage3.Controls.Add(this.comboBox2);
@@ -706,6 +708,17 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.BackColor = System.Drawing.Color.Red;
+            this.label25.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label25.Location = new System.Drawing.Point(15, 90);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(365, 20);
+            this.label25.TabIndex = 15;
+            this.label25.Text = "Lütfen 2. , 3. ve 4. şube dışında bir şube seçmeyiniz";
+            // 
             // DersOlusturma2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -799,5 +812,6 @@
         private Label label20;
         private Label label21;
         private Button button1;
+        private Label label25;
     }
 }
