@@ -44,6 +44,7 @@
             this.checkBox9 = new System.Windows.Forms.CheckBox();
             this.label1 = new System.Windows.Forms.Label();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // comboBox6
@@ -54,11 +55,11 @@
             "Salı: 8.30-11.20",
             "Pazartesi: 11.30-14.20",
             "Pazartesi: 14.30-17.20"});
-            this.comboBox6.Location = new System.Drawing.Point(589, 379);
+            this.comboBox6.Location = new System.Drawing.Point(641, 379);
             this.comboBox6.Name = "comboBox6";
             this.comboBox6.Size = new System.Drawing.Size(299, 33);
             this.comboBox6.TabIndex = 36;
-            this.comboBox6.Text = "Lineer Cebir Saatleri:";
+            this.comboBox6.Text = "Türk Dili I Saatleri:";
             // 
             // comboBox5
             // 
@@ -70,11 +71,11 @@
             "Şube 3 :Perşembe 19.30 - 21.20,  Çarşamba 19.30 - 21.20",
             "Şube 4: Pazartesi 19.30 - 21.20,  Salı 19.30 - 21.20",
             "Şube 5: Çarsamba 17.30 - 19.20,  Cuma 19.30 - 21.20"});
-            this.comboBox5.Location = new System.Drawing.Point(589, 425);
+            this.comboBox5.Location = new System.Drawing.Point(641, 425);
             this.comboBox5.Name = "comboBox5";
             this.comboBox5.Size = new System.Drawing.Size(299, 33);
             this.comboBox5.TabIndex = 35;
-            this.comboBox5.Text = "Atatürk İlkeleri I Saatleri:";
+            this.comboBox5.Text = "Academic English I Saatleri:";
             // 
             // comboBox4
             // 
@@ -84,11 +85,11 @@
             "Biilgisayar Programlama",
             "saat 1",
             "saat2"});
-            this.comboBox4.Location = new System.Drawing.Point(589, 332);
+            this.comboBox4.Location = new System.Drawing.Point(641, 332);
             this.comboBox4.Name = "comboBox4";
             this.comboBox4.Size = new System.Drawing.Size(299, 33);
             this.comboBox4.TabIndex = 34;
-            this.comboBox4.Text = "Mathematics I Saatleri:";
+            this.comboBox4.Text = "Differantial Equations Saatleri:";
             // 
             // comboBox3
             // 
@@ -100,11 +101,11 @@
             "Şube 3 :Perşembe 19.30 - 21.20,  Çarşamba 19.30 - 21.20",
             "Şube 4: Pazartesi 19.30 - 21.20,  Salı 19.30 - 21.20",
             "Şube 5: Çarsamba 17.30 - 19.20,  Cuma 19.30 - 21.20"});
-            this.comboBox3.Location = new System.Drawing.Point(589, 285);
+            this.comboBox3.Location = new System.Drawing.Point(641, 285);
             this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(299, 33);
+            this.comboBox3.Size = new System.Drawing.Size(334, 33);
             this.comboBox3.TabIndex = 33;
-            this.comboBox3.Text = "English I Saatleri:";
+            this.comboBox3.Text = "Object Oriented Programming Saatleri:";
             // 
             // comboBox2
             // 
@@ -116,11 +117,11 @@
             "Şube 3 :Perşembe 19.30 - 21.20,  Çarşamba 19.30 - 21.20",
             "Şube 4: Pazartesi 19.30 - 21.20,  Salı 19.30 - 21.20",
             "Şube 5: Çarsamba 17.30 - 19.20,  Cuma 19.30 - 21.20"});
-            this.comboBox2.Location = new System.Drawing.Point(589, 238);
+            this.comboBox2.Location = new System.Drawing.Point(641, 238);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(299, 33);
+            this.comboBox2.Size = new System.Drawing.Size(334, 33);
             this.comboBox2.TabIndex = 32;
-            this.comboBox2.Text = "Fizik I Saatleri:";
+            this.comboBox2.Text = "Elektrik ve Elektronik Devreleri Saatleri:";
             // 
             // comboBox1
             // 
@@ -129,11 +130,11 @@
             this.comboBox1.Items.AddRange(new object[] {
             "Pazartesi: 9.30-10.20",
             "Pazartesi: 10.30-11.20"});
-            this.comboBox1.Location = new System.Drawing.Point(589, 188);
+            this.comboBox1.Location = new System.Drawing.Point(641, 188);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(299, 33);
             this.comboBox1.TabIndex = 31;
-            this.comboBox1.Text = "Bilgisayar Müh. Giriş Saatleri:";
+            this.comboBox1.Text = "Olasılık ve İstatistik Saatleri:";
             // 
             // BilProgramalama
             // 
@@ -142,11 +143,11 @@
             this.BilProgramalama.Items.AddRange(new object[] {
             "Pazartesi: 8.30-10.20",
             "Pazartesi: 10.30-12.20"});
-            this.BilProgramalama.Location = new System.Drawing.Point(589, 144);
+            this.BilProgramalama.Location = new System.Drawing.Point(641, 144);
             this.BilProgramalama.Name = "BilProgramalama";
             this.BilProgramalama.Size = new System.Drawing.Size(299, 33);
             this.BilProgramalama.TabIndex = 30;
-            this.BilProgramalama.Text = "Bilgisayar Programalama I Saatleri:";
+            this.BilProgramalama.Text = "Data Structures Saatleri:";
             // 
             // checkBox14
             // 
@@ -157,9 +158,9 @@
             this.checkBox14.Location = new System.Drawing.Point(225, 188);
             this.checkBox14.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.checkBox14.Name = "checkBox14";
-            this.checkBox14.Size = new System.Drawing.Size(272, 36);
+            this.checkBox14.Size = new System.Drawing.Size(256, 36);
             this.checkBox14.TabIndex = 29;
-            this.checkBox14.Text = "Bilgisayar Müh. Giriş";
+            this.checkBox14.Text = "Olasılık ve İstatistik";
             this.checkBox14.UseVisualStyleBackColor = false;
             // 
             // checkBox13
@@ -171,10 +172,11 @@
             this.checkBox13.Location = new System.Drawing.Point(225, 235);
             this.checkBox13.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.checkBox13.Name = "checkBox13";
-            this.checkBox13.Size = new System.Drawing.Size(102, 36);
+            this.checkBox13.Size = new System.Drawing.Size(387, 36);
             this.checkBox13.TabIndex = 28;
-            this.checkBox13.Text = "Fizik I";
+            this.checkBox13.Text = "Elektrik ve Elektronik Devreleri";
             this.checkBox13.UseVisualStyleBackColor = false;
+            this.checkBox13.CheckedChanged += new System.EventHandler(this.checkBox13_CheckedChanged);
             // 
             // checkBox12
             // 
@@ -185,9 +187,9 @@
             this.checkBox12.Location = new System.Drawing.Point(225, 281);
             this.checkBox12.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.checkBox12.Name = "checkBox12";
-            this.checkBox12.Size = new System.Drawing.Size(133, 36);
+            this.checkBox12.Size = new System.Drawing.Size(383, 36);
             this.checkBox12.TabIndex = 27;
-            this.checkBox12.Text = "English I";
+            this.checkBox12.Text = "Object Oriented Programming";
             this.checkBox12.UseVisualStyleBackColor = false;
             // 
             // checkBox11
@@ -199,9 +201,9 @@
             this.checkBox11.Location = new System.Drawing.Point(225, 328);
             this.checkBox11.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.checkBox11.Name = "checkBox11";
-            this.checkBox11.Size = new System.Drawing.Size(197, 36);
+            this.checkBox11.Size = new System.Drawing.Size(286, 36);
             this.checkBox11.TabIndex = 26;
-            this.checkBox11.Text = "Mathematics I";
+            this.checkBox11.Text = "Differantial Equations";
             this.checkBox11.UseVisualStyleBackColor = false;
             // 
             // checkBox10
@@ -213,10 +215,11 @@
             this.checkBox10.Location = new System.Drawing.Point(225, 375);
             this.checkBox10.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.checkBox10.Name = "checkBox10";
-            this.checkBox10.Size = new System.Drawing.Size(173, 36);
+            this.checkBox10.Size = new System.Drawing.Size(147, 36);
             this.checkBox10.TabIndex = 25;
-            this.checkBox10.Text = "Lineer Cebir";
+            this.checkBox10.Text = "Türk Dili I";
             this.checkBox10.UseVisualStyleBackColor = false;
+            this.checkBox10.CheckedChanged += new System.EventHandler(this.checkBox10_CheckedChanged);
             // 
             // checkBox9
             // 
@@ -227,9 +230,9 @@
             this.checkBox9.Location = new System.Drawing.Point(225, 421);
             this.checkBox9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Size = new System.Drawing.Size(215, 36);
+            this.checkBox9.Size = new System.Drawing.Size(251, 36);
             this.checkBox9.TabIndex = 24;
-            this.checkBox9.Text = "Atatürk İkeleri I";
+            this.checkBox9.Text = "Academic English I";
             this.checkBox9.UseVisualStyleBackColor = false;
             // 
             // label1
@@ -254,10 +257,20 @@
             this.checkBox1.Location = new System.Drawing.Point(225, 141);
             this.checkBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(324, 36);
+            this.checkBox1.Size = new System.Drawing.Size(212, 36);
             this.checkBox1.TabIndex = 22;
-            this.checkBox1.Text = "Bilgisayar Programlama I";
+            this.checkBox1.Text = "Data Structures";
             this.checkBox1.UseVisualStyleBackColor = false;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(990, 483);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(94, 29);
+            this.button1.TabIndex = 37;
+            this.button1.Text = "Geri Dön";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // ikinciSinif
             // 
@@ -265,6 +278,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1112, 531);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.comboBox6);
             this.Controls.Add(this.comboBox5);
             this.Controls.Add(this.comboBox4);
@@ -304,5 +318,6 @@
         private CheckBox checkBox9;
         private Label label1;
         private CheckBox checkBox1;
+        private Button button1;
     }
 }

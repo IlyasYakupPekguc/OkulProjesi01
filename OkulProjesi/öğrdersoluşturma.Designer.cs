@@ -88,6 +88,7 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.tabPage7.SuspendLayout();
             this.tabPage6.SuspendLayout();
             this.tabPage5.SuspendLayout();
@@ -110,7 +111,7 @@
             this.tabPage7.Location = new System.Drawing.Point(4, 29);
             this.tabPage7.Name = "tabPage7";
             this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage7.Size = new System.Drawing.Size(945, 433);
+            this.tabPage7.Size = new System.Drawing.Size(940, 433);
             this.tabPage7.TabIndex = 6;
             this.tabPage7.Text = "Atatürk İlkeleri ve İnkilap Tarihi I";
             this.tabPage7.UseVisualStyleBackColor = true;
@@ -189,7 +190,7 @@
             this.tabPage6.Location = new System.Drawing.Point(4, 29);
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(945, 433);
+            this.tabPage6.Size = new System.Drawing.Size(940, 433);
             this.tabPage6.TabIndex = 5;
             this.tabPage6.Text = "Lineer Cebir";
             this.tabPage6.UseVisualStyleBackColor = true;
@@ -278,7 +279,7 @@
             this.tabPage5.Location = new System.Drawing.Point(4, 29);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(945, 433);
+            this.tabPage5.Size = new System.Drawing.Size(940, 433);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "Mathematics I";
             this.tabPage5.UseVisualStyleBackColor = true;
@@ -356,7 +357,7 @@
             this.tabPage4.Location = new System.Drawing.Point(4, 29);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(945, 433);
+            this.tabPage4.Size = new System.Drawing.Size(940, 433);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "English I";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -434,7 +435,7 @@
             this.tabPage3.Location = new System.Drawing.Point(4, 29);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(945, 433);
+            this.tabPage3.Size = new System.Drawing.Size(940, 433);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Fizik I";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -513,7 +514,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 29);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(945, 433);
+            this.tabPage1.Size = new System.Drawing.Size(940, 433);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Bilgisayar Programlama I";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -602,7 +603,7 @@
             this.tabControl1.Location = new System.Drawing.Point(7, 77);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(953, 466);
+            this.tabControl1.Size = new System.Drawing.Size(948, 466);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage2
@@ -618,7 +619,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 29);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(945, 433);
+            this.tabPage2.Size = new System.Drawing.Size(940, 433);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Bilgisayar Mühendisliğine Giriş";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -695,12 +696,24 @@
             this.label9.TabIndex = 6;
             this.label9.Text = "Şube :";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(854, 25);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(94, 29);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "Geri Dön";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // öğrdersoluşturma
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(960, 555);
+            this.ClientSize = new System.Drawing.Size(962, 553);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.tabControl1);
+            this.MaximizeBox = false;
             this.Name = "öğrdersoluşturma";
             this.Text = "Form3";
             this.Load += new System.EventHandler(this.öğrdersoluşturma_Load);
@@ -785,5 +798,6 @@
         private Label label24;
         private Label label22;
         private Label label23;
+        private Button button1;
     }
 }

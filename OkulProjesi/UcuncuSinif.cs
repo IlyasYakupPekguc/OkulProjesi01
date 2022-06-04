@@ -17,5 +17,20 @@ namespace OkulProjesi
             InitializeComponent();
         }
 
+        private void comboBox4_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox6_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            new Form1().Show();
+            this.Close();
+        }
     }
 }

@@ -43,7 +43,20 @@ namespace OkulProjesi
 
         private void button2_Click(object sender, EventArgs e)
         {
+            new ikinciSinif().Show();
+            this.Close();
+        }
 
+        private void button3_Click(object sender, EventArgs e)
+        {
+            new UcuncuSinif().Show();
+            this.Close();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            new DorduncuSinif().Show();
+            this.Close();
         }
     }
 }

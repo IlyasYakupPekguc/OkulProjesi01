@@ -52,7 +52,7 @@ namespace OkulProjesi
 
             if (dr1.Read())
             {
-                new öğrdersoluşturma().Show();
+                new OgretmenSinifSecimi().Show();
                 this.Hide();
 
             }
