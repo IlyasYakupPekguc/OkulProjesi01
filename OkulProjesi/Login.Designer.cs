@@ -57,7 +57,6 @@
             this.label2.Size = new System.Drawing.Size(183, 37);
             this.label2.TabIndex = 1;
             this.label2.Text = "Kullanıcı Adı";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -71,7 +70,7 @@
             this.label3.Size = new System.Drawing.Size(79, 37);
             this.label3.TabIndex = 2;
             this.label3.Text = "Şifre";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+
             // 
             // textUserName
             // 
@@ -79,7 +78,7 @@
             this.textUserName.Name = "textUserName";
             this.textUserName.Size = new System.Drawing.Size(173, 27);
             this.textUserName.TabIndex = 3;
-            this.textUserName.TextChanged += new System.EventHandler(this.textUserName_TextChanged);
+
             // 
             // button1
             // 
@@ -129,7 +128,7 @@
             this.label6.Size = new System.Drawing.Size(291, 46);
             this.label6.TabIndex = 8;
             this.label6.Text = "Öğretmen Girişi:";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
+
             // 
             // label7
             // 
@@ -183,7 +182,7 @@
             this.OgrenciAd.Name = "OgrenciAd";
             this.OgrenciAd.Size = new System.Drawing.Size(173, 27);
             this.OgrenciAd.TabIndex = 13;
-            this.OgrenciAd.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+   
             // 
             // button2
             // 
@@ -245,7 +244,7 @@
             this.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
-            this.Load += new System.EventHandler(this.Login_Load);
+
             this.ResumeLayout(false);
             this.PerformLayout();
 

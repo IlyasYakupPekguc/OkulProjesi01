@@ -23,15 +23,7 @@ namespace OkulProjesi
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-            
-        }
+ 
 
         private void label4_Click(object sender, EventArgs e)
         {
@@ -107,25 +99,7 @@ namespace OkulProjesi
             //this.Hide();
         }
 
-        private void Login_Load(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textUserName_TextChanged(object sender, EventArgs e)
-        {
-
-        }
+   
 
         private void button3_Click(object sender, EventArgs e)
         {
@@ -133,9 +107,6 @@ namespace OkulProjesi
             this.Hide();
         }
 
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
+    
     }
 }
